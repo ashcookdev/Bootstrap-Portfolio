@@ -25,11 +25,29 @@ body {background-image: url(https://wallpaperaccess.com/full/696349.jpg);
     font-family: 'Ubuntu', sans-serif;
 }
 
-.btn-primary {background-color: aqua;
+.buttons {display: flex;
+align-items: space-between;
+flex-direction: row;
+justify-content: space-evenly;
+margin: 20px 20px 20px 20px;}
+
+.btn-primary1 {background-color: rgb(255, 255, 255);
 color: black;}
 
-.btn-primary:hover {box-shadow: rgb(255, 0, 204) 0px 8px 24px, rgb(255, 0, 204) 0px 16px 56px, rgb(255, 0, 204) 0px 24px 80px;
-background-color: rgb(255, 0, 204) ;}
+.btn-primary2 {background-color: rgb(255, 255, 255);
+    color: black;}
+
+.btn-primary1:hover {width: 180px;
+    padding: 75px;
+    color: transparent;
+    background-image: url(https://th.bing.com/th/id/R.e054a3552a1ca6df5cfb9f1d6bc4ad22?rik=U8UDQFhwMMA9Hg&riu=http%3a%2f%2fwww.republiccapitalaccess.com%2fwp-content%2fuploads%2f2014%2f07%2flinkedin-icon.png&ehk=xhWg%2fniIIg%2bLX9Q49al0aPsj4XQm8b2d9unHKNmJmyc%3d&risl=&pid=ImgRaw&r=0);
+    box-shadow: rgb(5, 238, 254) 0px 8px 24px, rgb(255, 0, 204) 0px 16px 56px, rgba(5, 238, 254) 0px 24px 80px;}
+
+    .btn-primary2:hover {width: 180px;
+        padding: 75px;
+        color: transparent;
+        background-image: url(https://th.bing.com/th/id/R.00f85ba2e91280ecb62955b1af6a4018?rik=0Cep60al%2f5F7gw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fGithub-Free-PNG-Image-180x180.png&ehk=aXNyrgW3XvnTQ1bxiw%2bPDeQ654RbXh0oy2oFAB2qCAM%3d&risl=&pid=ImgRaw&r=0);
+    box-shadow: rgb(5, 238, 254) 0px 8px 24px, rgb(255, 0, 204) 0px 16px 56px, rgba(5, 238, 254) 0px 24px 80px;}
 
 .image2{width: 500px;
 display: flex;
