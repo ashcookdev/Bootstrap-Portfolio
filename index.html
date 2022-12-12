@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Bootstrap Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -21,14 +21,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#card-deck"> My Projects</a>
+            <a class="nav-item nav-link active" href="#projects"> My Projects</a>
             <a class="nav-item nav-link" href="#about-me">About Me</a>
             <a class="nav-item nav-link" href="#contact">Contact Me</a>
           </div>
         </div>
       </nav>
 <section>
-    <div class="Card1 mb-3" style="max-width: 100%;">
+    <div class="Card1 mb-3 container-fluid" style="max-width: 100%;">
         <div class="row no-gutters">
           <div class="col-md-4">
             <img src="Images/CZVP2201.PNG" class="card-img" alt="Picture of Ash">
@@ -42,7 +42,7 @@
         </div>
       </div>
 </section>
-<div class="Card2 d-flex  align-items-center"> 
+<div class="Card2 d-flex align-items-center container-fluid">
     <audio class="d-flex" controls>
      <source src="Images/wake-me.mp3" type="audio/mpeg">
       </audio>
@@ -50,7 +50,7 @@
         <h5> Title: Wakes Me Up </h5> </div>
     </div>
   </div> 
-  <div class="Card2 d-flex align-items-center"> 
+  <div class="Card2 d-flex align-items-center container-fluid"> 
     <audio class="d-flex" controls>
      <source src="Images/vibes.2.mp3" type="audio/mpeg">
       </audio>
@@ -62,7 +62,7 @@
 
 
     <section>
-<div class="cardwork text-center" style="max-width:100%;"> 
+<div class="cardwork text-center container-fluid" style="max-width:100%;"> 
   <div class="card-header"> <h1> Work Experience</h1>
   </div>
   <div class="card-body" > 
@@ -72,32 +72,24 @@
 </div>
 </section>
 <section>
-    <div class="card-deck" id="card-deck"> 
+    <div class="card-deck container-fluid" id="card-deck"> 
         <div class="card"> <a href="https://linkedin.com/in/ashley-cook-822974124">
-          <img src="https://www.litigationsupportguru.com/wp-content/uploads/2012/06/linkedin-logo_181x181.png" alt="...">
+          <img src="https://www.freepnglogos.com/uploads/linkedin-logo-style-png-8.png" alt="linkedin logo">
           <div class="card-body">
             <h5 class="card-title">LikedIn Profile</h5>
           </div>
           </a>
         </div>
         <div class="card"> <a href="https://github.com/ashcookdev">
-          <img src="https://th.bing.com/th/id/OIP.05b5BHN45Y0ljD4nIDxD8AHaEK?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+          <img src="https://th.bing.com/th/id/OIP.05b5BHN45Y0ljD4nIDxD8AHaEK?pid=ImgDet&rs=1" class="card-img-top" alt="github logo">
           <div class="card-body">
             <h5 class="card-title">My Github Profile</h5>
 
           </div>
         </a>
         </div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
       </div>
-      <div class="card-deck">
+      <div class="card-deck container-fluid" id="projects">
         <div class="card project1" > <a href="https://ashcookdev.github.io/prework-study-guide/">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg0wD2qKb5UT5R4zrOB8OJ05SUXVU7hG3Efg&usqp=CAU" class="card-img-top" alt="...">
           <div class="card-body">
@@ -113,7 +105,7 @@
           </div>
           </a>
         </div>
-        <div class="card project3"> <a href="http://https://ashcookdev.github.io/challenge2/">
+        <div class="card project3"> <a href="https://ashcookdev.github.io/challenge2/">
           <img src="https://media.istockphoto.com/id/1294521676/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?b=1&s=170667a&w=0&k=20&c=ehWomY1hSv3JUibQuEJ4xgs98-aK6EZPh4Rb_IyGzjg=" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Project 3</h5>
@@ -127,7 +119,7 @@
 
 </section>
 <footer id="contact"> 
-<h5> Contact Me</h5> 
+<h5> Contact Me:</h5> 
 <a href="mailto:ashleycook@mail.com"><h5 class="contactme"> ashleycook@mail.com</h5></a>
 <h5> 07960213542</h5>
 </footer>
