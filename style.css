@@ -1,22 +1,4 @@
-.jumbotron { background-image:url(images/IMG_1784.JPG);
-    background-size: cover;
-display: flex;
-color: aliceblue;
-justify-content: space-evenly;
-flex-direction: column;
-align-items: center;
-border-bottom: solid;
-border-color: hwb(186 1% 3%) ;
-border-top: solid;
-border-color: hwb(186 1% 3%) 
-box-shadow: hwb(186 1% 3%) 0px 3px 8px;
-width: 100%;
-padding: 300px;
-margin-top: 50px;
-}
 
-.jumbotron:hover {box-shadow: rgb(5, 238, 254) 0px 8px 24px, rgb(255, 0, 204) 0px 16px 56px, rgba(5, 238, 254) 0px 24px 80px;
-   }
 
 
 
@@ -32,10 +14,10 @@ justify-content: space-evenly;
 margin: 20px 20px 20px 20px;}
 
 .btn-primary1 {background-color: rgb(255, 255, 255);
-color: black;}
+color: rgb(0, 200, 255);}
 
 .btn-primary2 {background-color: rgb(255, 255, 255);
-    color: black;}
+    color: rgb(255, 2, 217);}
 
 .btn-primary1:hover {width: 180px;
     padding: 75px;
@@ -62,7 +44,8 @@ align-items: center;}
 color: azure;
 border-bottom: solid;
 border-color: hwb(186 1% 3%) ;
-box-shadow: hwb(186 1% 3%) 0px 3px 8px;} 
+box-shadow: hwb(186 1% 3%) 0px 3px 8px;
+animation: nav-load 1s;} 
 
 .hover {border-style: solid;
 border-color: fuchsia;
@@ -85,7 +68,8 @@ border-top: solid rgb(255, 0, 204);
 box-shadow:rgb(255, 0, 204) 0px 3px 8px;
 border-bottom: solid aqua;
 box-shadow: hwb(186 1% 3%) 0px 3px 8px;
-transition: transform 1s linear;}
+transition: transform 1s linear;
+animation: about-me 2s;}
 
 .Card2 {
     padding: 20px;
@@ -98,7 +82,8 @@ border-bottom: solid aqua;
 box-shadow: hwb(186 1% 3%) 0px 3px 8px;}
 .card-text {display: flex;
 align-content: flex-end;
-transition: transform 1s linear; }
+transition: transform 1s linear; 
+animation: tunes 3s;}
 
 .Card3 {
     display: flex;
@@ -144,6 +129,7 @@ align-content: center;
 flex-direction: column;
 justify-content: flex-start;
 transition: transform 1s linear;
+animation: work-card 2s ease-in 5s;
 }
 
 .cardwork:hover {box-shadow: rgb(255, 0, 204) 0px 8px 24px, rgb(255, 0, 204) 0px 16px 56px, rgba(255, 0, 204) 0px 24px 80px; 
@@ -164,7 +150,8 @@ audio:hover {box-shadow: rgb(255, 0, 204) 0px 8px 24px, rgb(255, 0, 204) 0px 16p
 
 .card-deck {margin-bottom: 20px;
 margin-top: 30px;
-transition: transform 1s linear;}
+transition: transform 1s linear;
+animation: card-deck ease-in 6s;}
 
     .card-deck:hover {box-shadow: rgb(255, 0, 204) 0px 8px 24px, rgb(255, 0, 204) 0px 16px 56px, rgba(255, 0, 204) 0px 24px 80px;}
 
@@ -189,6 +176,16 @@ margin-top: 50px;
 border-top: solid pink;
 color: aliceblue;
 }
+
+@keyframes nav-load {0% { transform: translateY(-100%); } 100% {transform: translateY(0%);} }
+
+@keyframes about-me {0% { transform: translateY(-100%); } 100% {transform: translateY(0%);} }
+
+@keyframes tunes {0% { transform: translateX(-100%); } 100% {transform: translateX(0%);} }
+
+@keyframes work-card {0% { transform: translateX(-100%); } 100% {transform: translateX(0%);} }
+
+@keyframes card-deck {0% { transform: translateY(-100%); } 100% {transform: translateY(0%);} }
 
 @media screen and (max-width: 600px) {
     footer {
