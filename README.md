@@ -10,12 +10,9 @@ Badges
 Visuals
 Images available in Images File
 
-image
-
 Installation
 No instalation needed please visit below to view my page.
-
-https://ashcookdev.github.io/challenge2/.
+https://ashcookdev.github.io/Bootstrap-Portfolio/
 
 Usage
 This has links to all my work I have completed so far
